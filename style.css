@@ -1,4 +1,9 @@
 
+body {
+    font-family: 'Nunito', sans-serif;
+
+}
+
 #img-div {
     display: flex;
     flex-direction: column;
@@ -13,4 +18,5 @@ img {
 
 #img-div figcaption {
     margin: auto;
+    padding-top: 10px;
     }
