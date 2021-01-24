@@ -1,13 +1,24 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: lightgray;
+    background-image: url("stripes.jpg");
+    background-size: cover;
 
+}
+
+header {
+    max-width: 70%;
+    margin:auto;
+    text-align: center;    
 }
 
 #img-div {
     display: flex;
     flex-direction: column;
     align-content: center;
+    background-color: white;
+    padding: 20px;
 }
 
 img {
@@ -20,3 +31,18 @@ img {
     margin: auto;
     padding-top: 10px;
     }
+
+#tribute-info h2{
+    text-align: center;
+    padding: 30px;
+}
+
+#tribute-info li {
+    max-width: 50%;
+    margin: auto;
+    padding: 0.8em;
+}
+
+#further-info  {
+    text-align: center;
+}
