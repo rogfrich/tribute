@@ -1,8 +1,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    /*background-color: lightgray;*/
-    background-color: red;
+    background-color: lightgray;
 }
 
 header {
@@ -35,8 +34,12 @@ img {
     padding: 30px;
 }
 
+#tribute-info ul {
+    list-style-type: none;
+}
+
 #tribute-info li {
-    max-width: 50%;
+    max-width: 50em;
     margin: auto;
     padding: 0.8em;
 }
